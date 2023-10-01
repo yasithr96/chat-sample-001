@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node dist/server.js",
-    "build": "tsc && scp -r ./uploads/ dist/uploads",
+    "build": "tsc && scp -r",
     "start:prod": "node dist/server.js"
   },
   "repository": {
